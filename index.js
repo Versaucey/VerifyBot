@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 const PREFIX = "-";
 
-var bot = new Discord.Client();
+const bot = new Discord.Client();
 
 bot.on("ready", function(){
     console.log("Verify bot is ready to verify!");
