@@ -40,5 +40,5 @@ bot.on("message", function(message){
 
 });
 
-bot.login(process.evn.TOKEN);
+bot.login(process.evn.BOT_TOKEN);
 
