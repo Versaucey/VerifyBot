@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 const PREFIX = "-";
 
-const bot = new Discord.Client();
+var bot = new Discord.Client();
 
 bot.on("ready", function(){
     console.log("Verify bot is ready to verify!");
@@ -36,9 +36,11 @@ bot.on("message", function(message){
 
         message.channel.sendEmbed(embed);
         break;
+            
     }
 
 });
+
 
 bot.login(process.evn.BOT_TOKEN);
 
